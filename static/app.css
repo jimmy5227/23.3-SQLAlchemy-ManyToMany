@@ -1,0 +1,103 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Cardo", serif;
+  background-color: #484d5c;
+}
+
+#content {
+  margin: 40px;
+}
+
+.navbar {
+  background-color: #c0ccd4;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #484d5c;
+  color: #ffce00;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #ffce00;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #c0ccd4;
+  padding: 20px;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 46%;
+}
+
+.alert {
+  font-size: 120%;
+  font-weight: bold;
+  background-color: #ff3c00;
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+  border: 2px solid #6b654e;
+  border-radius: 4px;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: solid #ffce00 2px;
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #484d5c;
+  color: #ffce00;
+}
+
+div p {
+  font-size: 125%;
+  font-weight: bold;
+}
+
+.tag {
+  padding: 1px 5px;
+  font-size: 13px;
+  background-color: #484d5c;
+  color: #ffce00;
+}
+
+button:hover.tag {
+  background-color: black;
+  color: white;
+}

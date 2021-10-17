@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %} Blogly {% endblock %}
+{% block content %}
+<h1>Welcome to Blogly!</h1>
+<div>
+    <h2>Current Users</h2>
+    <ul>
+        {% for user in listed_users %}
+        <li>{{user.first_name}} {{user.last_name}}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}
